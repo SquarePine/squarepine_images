@@ -1,0 +1,3 @@
+[submodule "submodules/libwebp"]
+	path = squarepine_images/thirdparty/libwebp
+	url = https://chromium.googlesource.com/webm/libwebp

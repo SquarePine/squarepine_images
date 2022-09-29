@@ -14,6 +14,7 @@
     OSXFrameworks:      SystemConfiguration
     iOSFrameworks:      SystemConfiguration
     dependencies:       squarepine_graphics
+    searchpaths:        thirdparty/libwebp thirdparty/libwebp/src codecs/webpwrangler/
 
     END_JUCE_MODULE_DECLARATION
 */
