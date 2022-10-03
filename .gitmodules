@@ -1,3 +1,6 @@
 [submodule "submodules/libwebp"]
 	path = squarepine_images/thirdparty/libwebp
 	url = https://chromium.googlesource.com/webm/libwebp
+[submodule "squarepine_images/thirdparty/libtiff"]
+	path = squarepine_images/thirdparty/libtiff
+	url = git@gitlab.com:libtiff/libtiff.git

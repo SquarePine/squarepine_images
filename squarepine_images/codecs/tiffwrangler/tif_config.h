@@ -1,0 +1,6 @@
+#ifndef SQUAREPINE_TIFF_CONFIG_H
+#define SQUAREPINE_TIFF_CONFIG_H
+
+#include "tiffconf.h"
+
+#endif // SQUAREPINE_TIFF_CONFIG_H

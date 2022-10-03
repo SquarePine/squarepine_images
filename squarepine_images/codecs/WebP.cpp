@@ -143,200 +143,200 @@ namespace libwebp
     #define SQUAREPINE_WEBP_ALLOW_ENCODER 0
    #endif
 
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/webp/decode.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/webp/encode.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #endif
     #include "../thirdparty/libwebp/src/webp/demux.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dsp.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/common_dec.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
 
     #include "../thirdparty/libwebp/src/dec/alpha_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/buffer_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/frame_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/io_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/quant_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/tree_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/vp8_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/vp8l_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dec/webp_dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
 
 #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/enc/frame_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/alpha_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/iterator_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/analysis_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/config_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/filter_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/predictor_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/near_lossless_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/picture_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/picture_csp_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/picture_tools_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/quant_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/syntax_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/token_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/tree_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/vp8l_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/webp_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/cost_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/histogram_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/backward_references_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/enc/backward_references_cost_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
 #endif
 
     #include "../thirdparty/libwebp/src/demux/demux.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/alpha_processing.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/cpu.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/cost.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/cost_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/cost_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dec.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/ssim.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/ssim_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dec_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dec_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dec_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/dec_clip_tables.c"
    #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/dsp/enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/enc_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/enc_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/enc_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #endif
     #include "../thirdparty/libwebp/src/dsp/filters.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/filters_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/filters_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/lossless.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/dsp/lossless_enc.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #endif
     #include "../thirdparty/libwebp/src/dsp/lossless_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/lossless_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/dsp/lossless_enc_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/lossless_enc_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/lossless_enc_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #endif
     #include "../thirdparty/libwebp/src/dsp/rescaler.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/rescaler_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/rescaler_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/upsampling.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/upsampling_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/upsampling_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/upsampling_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/yuv.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/yuv_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/yuv_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/yuv_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/alpha_processing_neon.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/alpha_processing_sse2.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/dsp/alpha_processing_sse41.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/bit_reader_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/bit_writer_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/color_cache_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/filters_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/huffman_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
    #if SQUAREPINE_WEBP_ALLOW_ENCODER
     #include "../thirdparty/libwebp/src/utils/huffman_encode_utils.c"
    #endif
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/quant_levels_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/rescaler_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/random_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/thread_utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
     #include "../thirdparty/libwebp/src/utils/utils.c"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
 
     // This file contains a copy of the code from "quant_levels_dec_utils.c"
     // minus the CLIP_8b_MASK and redundantly defined clip_8b function:
     #include "webpwrangler/QuantLevelsDecUtils.h"
-    #include "WebPUndefHelper.h"
+    #include "webpwrangler/UndefHelper.h"
 
     #undef HAVE_CONFIG_H
     #undef USE_DITHERING
@@ -388,66 +388,67 @@ namespace libwebp
     #undef PACKAGE_URL
 
     JUCE_END_IGNORE_WARNINGS_MSVC
-} // libwebp
 
-//==============================================================================
-/** @returns a value in bytes, or -1 on failure. */
-inline int getDataSizeOfWebPImage (InputStream& input)
-{
-    const bool startsWithRiff = input.readByte() == 'R'
-                             && input.readByte() == 'I'
-                             && input.readByte() == 'F'
-                             && input.readByte() == 'F';
-    if (! startsWithRiff)
-        return -1;
-
-    const auto sizeOfFileBytes = input.readInt();
-    if (sizeOfFileBytes <= 0)
-        return -1;
-
-    const bool hasWebPMagic = input.readByte() == 'W'
-                           && input.readByte() == 'E'
-                           && input.readByte() == 'B'
-                           && input.readByte() == 'P';
-    if (! hasWebPMagic)
-        return -1;
-
-    return sizeOfFileBytes;
-}
-
-inline Image createImageFromData (bool hasAlphaChan, int width, int height, const uint8_t* data)
-{
-    Image image (hasAlphaChan ? Image::ARGB : Image::RGB, width, height, hasAlphaChan);
-
-    const Image::BitmapData destData (image, Image::BitmapData::writeOnly);
-
-    for (int y = 0; y < height; ++y)
+    //==============================================================================
+    /** @returns a value in bytes, or -1 on failure. */
+    inline int getDataSizeOfWebPImage (InputStream& input)
     {
-        auto* dest = destData.getLinePointer (y);
+        const bool startsWithRiff = input.readByte() == 'R'
+                                && input.readByte() == 'I'
+                                && input.readByte() == 'F'
+                                && input.readByte() == 'F';
+        if (! startsWithRiff)
+            return -1;
 
-        if (hasAlphaChan)
-        {
-            for (int i = width; --i >= 0;)
-            {
-                ((PixelARGB*) dest)->setARGB (data[3], data[0], data[1], data[2]);
-                ((PixelARGB*) dest)->premultiply();
-                dest += destData.pixelStride;
-                data += 4;
-            }
-        }
-        else
-        {
-            for (int i = width; --i >= 0;)
-            {
-                ((PixelRGB*) dest)->setARGB (0, data[0], data[1], data[2]);
-                dest += destData.pixelStride;
-                data += 4;
-            }
-        }
+        const auto sizeOfFileBytes = input.readInt();
+        if (sizeOfFileBytes <= 0)
+            return -1;
+
+        const bool hasWebPMagic = input.readByte() == 'W'
+                            && input.readByte() == 'E'
+                            && input.readByte() == 'B'
+                            && input.readByte() == 'P';
+        if (! hasWebPMagic)
+            return -1;
+
+        return sizeOfFileBytes;
     }
 
-    return image;
-}
+    inline Image createImageFromData (bool hasAlphaChan, int width, int height, const uint8_t* data)
+    {
+        Image image (hasAlphaChan ? Image::ARGB : Image::RGB, width, height, hasAlphaChan);
+
+        const Image::BitmapData destData (image, Image::BitmapData::writeOnly);
+
+        for (int y = 0; y < height; ++y)
+        {
+            auto* dest = destData.getLinePointer (y);
+
+            if (hasAlphaChan)
+            {
+                for (int i = width; --i >= 0;)
+                {
+                    ((PixelARGB*) dest)->setARGB (data[3], data[0], data[1], data[2]);
+                    ((PixelARGB*) dest)->premultiply();
+                    dest += destData.pixelStride;
+                    data += 4;
+                }
+            }
+            else
+            {
+                for (int i = width; --i >= 0;)
+                {
+                    ((PixelRGB*) dest)->setARGB (0, data[0], data[1], data[2]);
+                    dest += destData.pixelStride;
+                    data += 4;
+                }
+            }
+        }
+
+        return image;
+    }
+
+} // libwebp
 
 //==============================================================================
 String WebPImageFormat::getFormatName()                             { return "WebP"; }
@@ -456,7 +457,7 @@ bool WebPImageFormat::usesFileExtension (const File& possibleFile)  { return pos
 bool WebPImageFormat::canUnderstand (InputStream& input)
 {
     const auto lastPos = input.getPosition();
-    const auto size = getDataSizeOfWebPImage (input);
+    const auto size = libwebp::getDataSizeOfWebPImage (input);
     input.setPosition (lastPos);
 
     return size > 0;
