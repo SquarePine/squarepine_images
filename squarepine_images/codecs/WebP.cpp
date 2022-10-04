@@ -511,7 +511,7 @@ Image WebPImageFormat::decodeImage (InputStream& input)
 
                     if (frame.isValid())
                     {
-                        frames.add (std::move (frame));
+                        frames.add (::std::move (frame));
                         break; // Break here because JUCE doesn't support multi-frame decoding.
                     }
                 }
