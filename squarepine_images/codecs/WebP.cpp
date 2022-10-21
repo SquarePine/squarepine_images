@@ -2,6 +2,10 @@
 namespace libwebp
 {
     JUCE_BEGIN_IGNORE_WARNINGS_MSVC (4127 4242 4244 4245 4309 4310 4459 4701)
+    JUCE_BEGIN_IGNORE_WARNINGS_GCC_LIKE ("-Wall",
+                                         "-Wconversion",
+                                         "-Wcast-align",
+                                         "-Wzero-as-null-pointer-constant")
 
     #undef USE_DITHERING
     #undef WEBP_HAVE_GIF
@@ -387,6 +391,7 @@ namespace libwebp
     #undef PACKAGE_STRING
     #undef PACKAGE_URL
 
+    JUCE_END_IGNORE_WARNINGS_GCC_LIKE
     JUCE_END_IGNORE_WARNINGS_MSVC
 } // libwebp
 
